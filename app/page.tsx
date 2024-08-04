@@ -1,3 +1,4 @@
+import Searchbar from "@/components/Searchbar";
 import Image from "next/image";
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
               Discover the best deals effortlessly with our site, your ultimate
               price comparison tool !
             </p>
-            Searchbar
+            <Searchbar />
           </div>
           HeroCarousel
         </div>
